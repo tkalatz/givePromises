@@ -2,7 +2,8 @@
 Javascript Asynchronous Programming and Promises, Never give promises ;)
 Javascript promises can blow your mind... but can make things better - as promises always
 
-`const givePromise = (gift) => {
+```javascript
+const givePromise = (gift) => {
   return new Promise( (r,f) => {
    r(gift);
    console.log("Promise Given for a new Gift!");
@@ -29,4 +30,4 @@ givePromise("A gift").then( gift => {
  .then( result => {
 	 console.log(result);
 });
-`
+```
